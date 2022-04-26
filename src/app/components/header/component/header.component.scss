@@ -11,6 +11,9 @@
         justify-content: space-between;
         width: 100%;
         height: 100%;
+        @media(max-width: 480px){
+            flex-wrap: wrap;               
+        }
         .header__logo {
             position: relative;
             display: inline-block;
@@ -18,6 +21,10 @@
             font-weight: 500;
             letter-spacing: 0.5px;
             color: var(--color-pink);
+            @media(max-width: 480px){
+                width: 100%;
+                font-size: 18px;
+            }
         }
         .header__list {
             position: relative;
@@ -36,6 +43,10 @@
                     line-height: 1.4em;
                     color: var(--color-pink);
                     margin-right: 10px;
+                    @media(max-width: 480px){
+                        font-size: 18px;
+                        margin-right: 5px;            
+                    }
                 }
                 p {
                     position: relative;

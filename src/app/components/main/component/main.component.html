@@ -1,9 +1,39 @@
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
+<section class="section main">
+    <div class="container" style="height: 100%;">
+        <div class="row" style="height: 100%;">
+            <div class="col-xl-10 offset-xl-1">
 
-                <p>Main Component</p>
+                <div class="main__wrapper">
+                    <div class="main__item">
+                        <div class="main__name">В мене є</div>
+                        <form class="main__form" [FormGroup]="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Введіть сумму">
+                            </div>
+                            
+                            <select class="form-control">
+                                <option>UAH</option>
+                                <option>USD</option>
+                                <option>EUR</option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <div class="main__item">
+                        <div class="main__name">Я отримаю</div>
+                        <form class="main__form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Введіть сумму">
+                            </div>
+                            
+                            <select class="form-control">
+                                <option>UAH</option>
+                                <option>USD</option>
+                                <option>EUR</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
 
             </div>
         </div>
