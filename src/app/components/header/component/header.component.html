@@ -1,0 +1,20 @@
+<section class="section header">
+    <div class="container" style="height: 100%;">
+        <div class="row" style="height: 100%;">
+            <div class="col-12">
+
+                <div class="header__wrapper">
+                    <div class="header__logo">Logo</div>
+
+                    <ul class="header__list">
+                        <li *ngFor="let item of currencyArr">
+                            <span class="material-icons">{{item.icon_name}}</span>
+                            <p>{{item.buy | number: '2.1-2'}} / {{item.sale | number: '2.1-2'}}</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
