@@ -20,5 +20,5 @@ a:link, a:visited, a:active, a:hover {cursor: pointer;text-decoration: none;outl
 img {width: 100%;height: auto;max-width: 100%;}
 button {background-color: transparent;border: 0;cursor: pointer;}
 .section {position: relative;display: block;width: 100%;}
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}
+input[type=number] {-moz-appearance: textfield;}
